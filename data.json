@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Engineering Intern",
+    "company": "Vercel",
+    "domain": "Engineering",
+    "location": "Remote",
+    "stipend": "$4,000/mo"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Intern",
+    "company": "Figma",
+    "domain": "Design",
+    "location": "San Francisco, CA",
+    "stipend": "$4,500/mo"
+  },
+  {
+    "id": 3,
+    "title": "Product Management Intern",
+    "company": "Stripe",
+    "domain": "Product",
+    "location": "New York, NY",
+    "stipend": "$5,000/mo"
+  },
+  {
+    "id": 4,
+    "title": "Data Science Intern",
+    "company": "OpenAI",
+    "domain": "Data",
+    "location": "San Francisco, CA",
+    "stipend": "$6,000/mo"
+  },
+  {
+    "id": 5,
+    "title": "Backend Engineering Intern",
+    "company": "Supabase",
+    "domain": "Engineering",
+    "location": "Remote",
+    "stipend": "$3,800/mo"
+  },
+  {
+    "id": 6,
+    "title": "Brand Design Intern",
+    "company": "Linear",
+    "domain": "Design",
+    "location": "Remote",
+    "stipend": "$4,200/mo"
+  }
+]
