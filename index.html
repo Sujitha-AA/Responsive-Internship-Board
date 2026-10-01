@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Explore Internships</h1>
+      <p>Find your next big opportunity with top teams.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Search & Filter Controls -->
+    <section class="controls-section" aria-label="Internship filters">
+      <div class="search-box">
+        <label for="search-input">Search roles or companies</label>
+        <input type="text" id="search-input" placeholder="e.g. Frontend, Google..." />
+      </div>
+
+      <div class="filter-box">
+        <label for="domain-filter">Filter by domain</label>
+        <select id="domain-filter">
+          <option value="">All Domains</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Design">Design</option>
+          <option value="Product">Product</option>
+          <option value="Data">Data Science</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Results Grid -->
+    <section aria-label="Internship Listings">
+      <div id="internship-grid" class="internship-grid" role="region" aria-live="polite">
+        <!-- Dynamic cards will be injected here via JavaScript -->
+      </div>
+
+      <!-- Empty State (Hidden by default) -->
+      <div id="empty-state" class="empty-state hidden">
+        <h3>No internships found</h3>
+        <p>Try adjusting your search criteria or domain filter.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
